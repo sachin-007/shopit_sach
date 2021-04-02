@@ -1,0 +1,98 @@
+11.send password recovery email
+
+
+8 -> 5
+
+9 ->  1
+
+
+9 => 2   // craete a save order
+
+
+json for create a new order
+{
+    "itemsPrice":"2.75",
+    "taxPrice":"0.14",
+    "shippingPrice":"25",
+    "totalPrice":"27.89",
+    "orderItems":[
+        {
+        "product":"6037cd8c0da09f1d581fc055",
+        "name":"CHARMOUNT Full Motion TV Wall Mount Swivel",
+        "price":"26.99",
+        "image":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD////MzMzj4+O3t7fx8fGmpqaysrKOjo7Gxsa9vb38/PypqamsrKzu7u5ra2vc3Nx4eHglJSXS0tIQEBBgYGBFRUXCwsJMTEw3Nzeenp4bGxtYWFiCgoLf39+YmJiGhoYxMTEiIiJUVFR0dHQNDQ2QjkL6AAADdklEQVR4nO3c61LiQBCGYQYIIQQ0KoiALLC693+LKx4ZyImkU92J7/NXquyvksxMegZ6PQAAAAAAAAAAAAAAAAAAAAAA0C3zl7l2CU3aRoFzz9pVNGYzdO9utQtpymc+5xbalTTjzn171K6lEcufgE67lkYMTgLG2sU0ITgJ6CLtahpwegWdG2uXI2/iBezgY3jrB+xr1yMv9hN2bzac+gEH2vXI8wN2cFE68gMuteuR5z+FHZztF/4lfNKuR97MC3inXU4DvOXMXruaJpwG7OSb7+Yn381Ku5hGHL4DrrVLacjqM1+oXUhj3u7SeBB28gHspsV4FIazcfbLw/NukgQuGEThuH3dqKfwZOZL1veXn9j3/eVN1Krpf3xz9gbhkq33gcXy/ANHU6Vyr7aN08p3w687cbMOUj/Qljnk75+s8l0we129rJPMv7tWrANu8+ovw/rjuK4b0LmddoZcYf2Athuoo+Lyy7C75tnKBHTO6nDzKBUwsNqAu5jmKzK7VSP0ENodSzfFtZey1w6SKXWleT27U4XQJTT88j8trr4Ey/s06e8T10p5j7RiUVx9CSPtGDmGxeUXM71PIzLbm50J38wlApo+s3BXXH4x02cWRFZsdif73sURmWoMTxXnp5yqMT2Sisz3ltczF0dIKjH7WvhOIuFEO0QuEpLw6EE7RC6JhIF2iFwSCU0vS2USmt4HlljT2N48jCQSJtop8ojsOZleeu9EElrex5dpRJkeTWUSGu4H9zJPV1zH8IQhMpg6d6OdI5vMUGO5G7UqLr4cu4+izL6F5Ygi3bZ3Vm/UV7GEZk9+ySW0ugclNF98iC32v2sf2fNpx0kjGtBk83RWXHd5Jo+23QsGNLqH0S+uvCybg2nvRS6hdpQsIv2oI7Ptb6E3fcsNm+xj+lcx/PVnoSfR7iUUGk5n2inySJxQNDoXfhHoZmyL/4uq2jOG6d7+0aFuwn/aCQrt6wW0/rWno4c6Aa02aXw12m62d7q/PVVP2JZfAqn8KFrszqSruGE61K77CpVWb7YP1JxLjxgP+lHUH6QPRe0KmHZ4P9kdvv542F0ufdp0i37wj37Hs7NXotXZRkcbZvpz85/LmKSupk8upNHOU7HdMkkehuPMn0K+34eT/mTavZ/dAwAAAAAAAAAAAAAAAAAAAAAAAAAAAPDL/Qd1QiS0LZvdpgAAAABJRU5ErkJggg==",
+        "quantity":1
+        }
+    ],
+    "shippingInfo":{
+        "address":"dfb ius fe4 f9es 4ffn jsen",
+        "city":"nashik",
+        "phoneNo":"4856585944",
+        "postalCode":"4748548",
+        "country":"india"
+    },
+    "paymentInfo":{
+        "id":"pi_489465186468546486",
+        "status":"succeeded"
+    }
+}
+
+
+
+9 IS COMPLETED 
+
+10 is user reviews   
+11 front end 
+
+shop it header and footer  is present on the src / component / header and footer.
+title at home.js for a website
+
+
+4:33 -> 2
+3 completed    
+
+isAuthenticated user is removed from the routes/products.js=>
+17. router.route("/products").get(isAuthenticatedUser, getProducts);->
+    router.route("/products").get(getProducts);
+
+    product product.js   28
+
+    5 fatvhing products for redux    13:15
+
+    12->9 completed   12-> COMPLETED
+
+    13 initialized      13 -> 9:00
+
+    home.js 58 line we can add our currency to adjust min and max value
+
+    4 filter by category
+
+
+    so the error is on 13  ->   4.Filter by category  at 05:54 we anable the filter product by the category like  the food we cant get apple apple frouit
+
+    now 14 is started 3/14/2021
+
+    3,4,5,6,7,8,9,10,11,12,13,14, 
+    14 is completed
+    15 is completed
+
+
+order / orderDetails.js -> 40 line made a change for isPaid
+
+problem in review , displaying , paid ,order in shipping 
+
+
+    if we have to change the shipping price of the product we can change from 'components/cart/confirmorder.js   18:line'
+    we can change the currency of accepting payment for that we will use the //* in backend/controllers/paymentcontrollers  * 
+
+
+    
+    in process register user reducer_Action is completed
+
+
+100,120,110,115,70,85,80,65,68  //nodes for tree =>  draw a tree using binary search tree  -> preaorder postorder 
+
+
+
+
+
